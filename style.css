@@ -1,0 +1,131 @@
+*{
+  margin:0px;
+  padding:0px;
+  box-sizing: border-box;
+  border:solid 1px red;
+}
+body{
+  background:#FEF08F;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:500px;
+  
+}
+.icepop{
+  position:absolute;
+  left:80px;
+  width:150px;
+  height:300px;
+}
+.ice{
+  position:absolute;
+  left:50px;
+  width:100px;
+  height:160px;
+  top:50px;
+  left:25px;
+  background-color:lightblue
+}
+.icetop{
+  position:absolute;
+  left:-1px;
+  width:100px;
+  height:50px;
+  border-radius:50% 50% 0 0/100% 100% 0 0;
+  top:-50px;
+  background-color:lightblue;
+}
+.b1{
+  position:absolute;
+  left:50px;
+  width:30px;
+  height:100px;
+  top:160px;
+  left:60px;
+  background-color:#C67E01;
+}
+.b2{
+  position:absolute;
+  left:50px;
+  width:30px;
+  height:20px;
+  border-radius:50% 50% 0 0/100% 100% 0 0;
+  transform:rotate(180deg);
+  top:98px;
+  left:-1px;
+  background-color:#C67E01;
+}
+
+.fan{
+  position:absolute;
+  width:250px;
+  height:250px;
+  border-radius:50%;
+  background-color:#FFBD80;
+}
+.fan:hover{
+ transition: width 2s ,height 2s, transform 0.5s;
+ transition-timing-function: ease;
+ transform: rotate(360deg);
+
+ 
+}
+.c{
+   position:absolute;
+   top:40%;
+   left:40%;
+   width:50px;
+   height:50px;
+   border-radius:50%;
+   background-color:blue;
+}
+.a1{
+  position:absolute;
+  transform:rotate(200deg);
+  width:100px;
+  height:100px;
+  border-radius:0 0 100% 0;
+  top:8px;
+  left:40px;
+  background-color:#E380FF;
+}
+.a2{
+  position:absolute;
+  transform:rotate(-20deg);
+  width:100px;
+  height:100px;
+  border-radius:0 0 100% 0;
+  top:100px;
+  left:145px;
+  background-color:#FFA600;
+}
+.a3{
+  position:absolute;
+  transform:rotate(90deg);
+  width:100px;
+  height:100px;
+  border-radius:0 0 100% 0;
+  top:130px;
+  left:20px;
+  background-color:#95FF00;
+}
+.fan{
+  position:relative;
+  animation-name:santamove;
+  animation-duration:5s;
+  animation-iteration-count:infinite;
+}
+@keyframes 
+santamove{
+  0%{
+    background-color:lightsalmon;
+  }
+  100%{
+    background-color:lightcyan;
+  }
+  .tv{
+    position:absolute;
+    width:3000px;
+    
+  }
